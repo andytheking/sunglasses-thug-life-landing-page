@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@media screen and (min-width: 30em) and (orientation: landscape) {}
+
+* {
+    font-family: Roboto;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(242, 242, 242);
+}
+
+h2 {
+    font-size: 25px;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    z-index: 1000;
+    width: 1250px;
+    height: 40px;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(242, 242, 242);
+    margin: 0 -0px 0 -10px;
+
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    padding-top: 6px;
+    padding-left: 50px;
+    position: relative;
+}
+
+:hover#logo {
+    scale: 200%;
+}
+
+.logoTxt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: -37%;
+    font-size: 20px;
+}
+
+li {
+    display: inline;
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-link {
+    font-size: 16px;
+    color: black;
+    padding: 30px;
+}
+
+:hover.nav-link {
+    background-color: deeppink;
+    opacity: 0.5;
+    color: ivory;
+}
+
+#form-container {
+    position: relative;
+    margin-top: 100px;
+    text-align: center;
+}
+
+#submit {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+}
+
+:hover#submit {
+    scale: 140%;
+}
+
+.ppp {
+    font-size: 17px;
+    margin-top: -20px;
+}
+
+#features {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin-top: 80px;
+    width: 800px;
+    padding-left: 30%;
+}
+
+.grid {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.desc {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    padding-left: 90px;
+}
+
+#email {
+    font-size: small;
+    margin: 12px;
+    padding: 5px;
+    width: 20%;
+    background-color: white;
+    border-radius: 2px;
+}
+
+#submit {
+    text-transform: uppercase;
+    color: seashell;
+    background-color: royalblue;
+}
+
+#how-it-works {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#pricing {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.level {
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    color: white;
+    background-color: royalblue;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    border: 1px solid black;
+    width: 300px;
+    border-radius: 3px;
+}
+
+ol {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+
+.product>ol>li {
+    padding: 5px 0;
+}
+
+.btn {
+    margin: 15px;
+    background-color: rgb(255, 152, 34);
+    border: none;
+    text-transform: uppercase;
+    padding: 8px 15px;
+}
+
+:hover.btn {
+    scale: 120%;
+    background-color: rgb(206, 45, 45);
+}
+
+footer {
+    background-color: rgba(65, 105, 225, 0.3);
+    padding: 10px;
+    border-radius: 3px;
+    width: 960px;
+    margin: 10px 10px 10px 150px;
+}
+
+.ulFooter {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.liFooter {
+    font-size: 18px;
+    padding: 0 20px 0 10px;
+    margin-bottom: -12px;
+}
+
+.cc {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+    font-size: 16px;
+    color: rgb(78, 95, 168);
+}
